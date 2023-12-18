@@ -4,3 +4,8 @@ export type Part = {
   columnStart: number;
   columnEnd: number;
 };
+
+export type Gear = {
+  rowIndex: number;
+  columnIndex: number;
+};
