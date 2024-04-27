@@ -1,7 +1,7 @@
 import { expect, it } from "bun:test";
-import { solvePart1 } from "./solvePart1";
+import { solvePart2 } from "./solvePart2";
 
-it("should solve part 1 correctly", () => {
+it("should solve part 2 correctly", () => {
 	const rows = [
 		"seeds: 79 14 55 13",
 		"",
@@ -38,5 +38,5 @@ it("should solve part 1 correctly", () => {
 		"56 93 4",
 	];
 
-	expect(solvePart1(rows)).toEqual(35);
+	expect(solvePart2(rows)).toEqual(46);
 });
